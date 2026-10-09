@@ -3,7 +3,7 @@ import pandas as pd
 from shodan import Shodan
 import re
 import CVE
-API_KEY = "GpnamXFzmDwkU8md6VEgtye2UlJC4NR4"
+API_KEY = "GpnamXFzmDwkU8md6VEDgtye2UlJC4NR4"
 api = Shodan(API_KEY)
 OUTPUT_FILE = "openssh_shodan.json"
 limit = 1000
